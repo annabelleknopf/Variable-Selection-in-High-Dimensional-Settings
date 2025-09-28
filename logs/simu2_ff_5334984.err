@@ -6,3 +6,4 @@
   warnings.warn(
 /usr/local/lib/python3.12/dist-packages/rpy2/rinterface/__init__.py:1211: UserWarning: Environment variable "R_SESSION_TMPDIR" redefined by R and overriding existing variable. Current: "/tmp/RtmpKlQ0ud", R: "/tmp/RtmpjvcQNn"
   warnings.warn(
+slurmstepd: error: *** JOB 5334984 ON cpu-008 CANCELLED AT 2025-09-28T20:39:30 ***

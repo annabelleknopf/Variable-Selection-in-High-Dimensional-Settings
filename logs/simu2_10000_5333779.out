@@ -53,3 +53,4 @@ Scenario a: k = 20, p = 10000
 Scenario b: k = 20, p = 10000
   sim 1/100
   sim 11/100
+  sim 21/100
