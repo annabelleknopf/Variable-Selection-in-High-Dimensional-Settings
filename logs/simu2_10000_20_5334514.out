@@ -1,0 +1,14 @@
+Scenario 0 – total null | p = 10000
+Scenario a: k = 20, p = 10000
+  sim 1/100
+  sim 11/100
+  sim 21/100
+  sim 31/100
+  sim 41/100
+  sim 51/100
+  sim 61/100
+  sim 71/100
+  sim 81/100
+  sim 91/100
+  sim 100/100
+  saved Results2/Sim2a.k_20_10000.pkl

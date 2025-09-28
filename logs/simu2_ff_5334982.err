@@ -1,0 +1,9 @@
+/usr/local/lib/python3.12/dist-packages/rpy2/rinterface/__init__.py:1211: UserWarning: Environment variable "LD_LIBRARY_PATH" redefined by R and overriding existing variable. Current: "/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server", R: "/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server:/usr/lib/R/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/jvm/default-java/lib/server"
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/rpy2/rinterface/__init__.py:1211: UserWarning: Environment variable "R_LIBS_SITE" redefined by R and overriding existing variable. Current: "/usr/local/lib/R/site-library/:/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library", R: "/usr/local/lib/R/site-library/:/usr/local/lib/R/site-library/:/usr/local/lib/R/site-library/:/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library:/usr/lib/R/library:/usr/lib/R/library"
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/rpy2/rinterface/__init__.py:1211: UserWarning: Environment variable "R_PAPERSIZE_USER" redefined by R and overriding existing variable. Current: "a4", R: "letter"
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/rpy2/rinterface/__init__.py:1211: UserWarning: Environment variable "R_SESSION_TMPDIR" redefined by R and overriding existing variable. Current: "/tmp/Rtmpkv3L1S", R: "/tmp/RtmpUu0znl"
+  warnings.warn(
+slurmstepd: error: *** JOB 5334982 ON cpu-008 CANCELLED AT 2025-09-28T18:49:01 ***

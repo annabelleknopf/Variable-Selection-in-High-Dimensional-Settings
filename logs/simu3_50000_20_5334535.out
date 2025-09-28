@@ -1,0 +1,9 @@
+
+Scenario 0 (null) | p=50000
+Scenario a | k=20 | p=50000
+  sim 1/100
+  sim 11/100
+  sim 21/100
+  sim 31/100
+  sim 41/100
+  sim 51/100

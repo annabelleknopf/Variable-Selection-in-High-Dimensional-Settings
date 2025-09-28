@@ -1,0 +1,4 @@
+/usr/local/lib/python3.12/dist-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=0.819 (selected automatically) might be too large.
+Features start to disappear at current_lambda=1.638.
+  warnings.warn(
+slurmstepd: error: *** JOB 5334558 ON cpu-012 CANCELLED AT 2025-09-28T05:21:11 ***

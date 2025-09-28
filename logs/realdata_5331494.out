@@ -1,0 +1,8 @@
+Starte Methode: stepwise_plain
+Starte Methode: L0opt_CDPSI
+Starte Methode: L0opt_CD
+Starte Methode: lassonet
+Starte Methode: lassonet_plus
+Starte Methode: deep2stage
+Starte Methode: deep2stage_plus
+Alle Ergebnisse gespeichert in: ResultsRealData/RealData_eQTL.pkl

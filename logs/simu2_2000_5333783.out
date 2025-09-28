@@ -1,0 +1,65 @@
+Scenario 0 – total null | p = 2000
+  sim 1/100
+  sim 11/100
+  sim 21/100
+  sim 31/100
+  sim 41/100
+  sim 51/100
+  sim 61/100
+  sim 71/100
+  sim 81/100
+  sim 91/100
+  sim 100/100
+  saved Results2/Sim2T0.k_0_2000.pkl
+Scenario a: k = 10, p = 2000
+  sim 1/100
+  sim 11/100
+  sim 21/100
+  sim 31/100
+  sim 41/100
+  sim 51/100
+  sim 61/100
+  sim 71/100
+  sim 81/100
+  sim 91/100
+  sim 100/100
+  saved Results2/Sim2a.k_10_2000.pkl
+Scenario b: k = 10, p = 2000
+  sim 1/100
+  sim 11/100
+  sim 21/100
+  sim 31/100
+  sim 41/100
+  sim 51/100
+  sim 61/100
+  sim 71/100
+  sim 81/100
+  sim 91/100
+  sim 100/100
+  saved Results2/Sim2b.k_10_2000.pkl
+Scenario a: k = 20, p = 2000
+  sim 1/100
+  sim 11/100
+  sim 21/100
+  sim 31/100
+  sim 41/100
+  sim 51/100
+  sim 61/100
+  sim 71/100
+  sim 81/100
+  sim 91/100
+  sim 100/100
+  saved Results2/Sim2a.k_20_2000.pkl
+Scenario b: k = 20, p = 2000
+  sim 1/100
+  sim 11/100
+  sim 21/100
+  sim 31/100
+  sim 41/100
+  sim 51/100
+  sim 61/100
+  sim 71/100
+  sim 81/100
+  sim 91/100
+  sim 100/100
+  saved Results2/Sim2b.k_20_2000.pkl

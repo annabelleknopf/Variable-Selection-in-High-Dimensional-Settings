@@ -1,0 +1,9 @@
+Start: n=500, p=10000, k=20, ρ=0.5, sims=100, methods=9
+  Simulation 1/100
+  Simulation 1/100
+✓ Simulation 1/100 abgeschlossen (426.08s)
+✓ Simulation 2/100 abgeschlossen (401.21s)
+✓ Simulation 3/100 abgeschlossen (390.19s)
+✓ Simulation 4/100 abgeschlossen (410.42s)
+✓ Simulation 5/100 abgeschlossen (370.75s)
+✓ Simulation 6/100 abgeschlossen (403.86s)
