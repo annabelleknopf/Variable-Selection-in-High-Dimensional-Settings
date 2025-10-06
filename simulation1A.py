@@ -70,7 +70,7 @@ from model_selection import (
 CheckCode = True  # set to False for the full simulation
 
 if CheckCode:
-    sim_nr = 3        # quick test – “just checking whether the code works”
+    sim_nr = 2        # quick test – “just checking whether the code works”
     p = 5_000
     results_folder = "CheckResults1"
 else:

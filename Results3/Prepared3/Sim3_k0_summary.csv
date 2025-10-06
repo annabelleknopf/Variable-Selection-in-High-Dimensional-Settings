@@ -1,0 +1,9 @@
+method,mBIC_impr_sum,mBIC_worse_sum,mBIC_FP_mean,mBIC2_impr_sum,mBIC2_worse_sum,mBIC2_FDR_mean
+stepwise_plain,0,0,0.035,0,0,0.035
+L0opt_CD,0,156,0.475,0,156,0.425
+L0opt_CDPSI,0,156,0.475,0,156,0.425
+GSDAR,0,14,0.035,0,13,0.035
+lassonet,0,14,0.035,0,14,0.035
+lassonet_plus,0,14,0.035,0,14,0.035
+deep2stage,0,14,0.0,0,14,0.0
+deep2stage_plus,0,14,0.035,0,14,0.035

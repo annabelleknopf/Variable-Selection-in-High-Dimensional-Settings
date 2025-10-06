@@ -1,0 +1,9 @@
+method,p=1000,p=2000,p=5000,p=10000
+stepwise_plain,0,0,0,0
+L0opt_CD,11,12,8,7
+L0opt_CDPSI,24,22,9,18
+GSDAR,0,0,3,0
+lassonet,3,3,7,7
+lassonet_plus,18,14,8,16
+deep2stage,0,0,0,0
+deep2stage_plus,12,7,1,6

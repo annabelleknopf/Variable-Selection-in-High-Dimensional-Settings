@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J simu2_ff
+#SBATCH -J simu3_test
 #SBATCH -p lrz-cpu
 #SBATCH --qos=cpu
 #SBATCH --cpus-per-task=8
@@ -15,6 +15,4 @@ mkdir -p logs
 # start in the directory from which you ran "sbatch"
 cd "$SLURM_SUBMIT_DIR"
 
-python3 -u simulation2_stepwiseff.py  #Simulation2_50000.py   # <-- works because we’re now in /home/…/MA/
-# or, if you really want an absolute path:
-# python3 -u "$HOME/MA/Test/test.py"
+python3 -u simulation3.py  # <-- works because we’re now in /home/…/MA/

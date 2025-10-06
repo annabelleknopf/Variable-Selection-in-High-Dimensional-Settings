@@ -74,10 +74,10 @@ from model_selection import (
 # In[3]:
 
 
-CheckCode = False  # switch to False for the full run
+CheckCode = True  # switch to False for the full run
 
 if CheckCode:
-    sim_nr = 2 
+    sim_nr = 1
     results_folder = "CheckResults2"
 else:
     sim_nr = 100
@@ -111,13 +111,13 @@ def make_call_seed(p: int, k: int, scenario: str, sim: int, method_idx: int) -> 
     return int((base * 1_004_659 + method_idx * 97) % 2_147_483_647)
 
 
-# In[1]:
+# In[4]:
 
 
 # Basic dimensions
 n = 1_000
-p_values = [1_000, 2_000, 5_000, 10_000, 50_000] #[1_000, 2_000, 5_000, 10_000, 50_000]
-k_values = [10,20]    #[10, 20]
+p_values = [1_000, 2_000, 5_000, 10_000] 
+k_values = [10,20]    
 
 # Methods
 methods = [
@@ -147,7 +147,7 @@ nr_procedures = len(methods)
 scaler = StandardScaler(with_mean=True, with_std=True)
 
 
-# In[2]:
+# In[5]:
 
 
 def simulate_genotypes(rng: np.random.Generator, n: int, p: int) -> np.ndarray:
@@ -169,7 +169,7 @@ def simulate_genotypes(rng: np.random.Generator, n: int, p: int) -> np.ndarray:
     return X0a + X0b
 
 
-# In[4]:
+# In[6]:
 
 
 # Helper: unified call that adds the distribution/family argument per method
@@ -197,7 +197,7 @@ def run_method(method, method_name: str, y, X):
     return method(y, X)
 
 
-# In[5]:
+# In[7]:
 
 
 MAX_ETA = 5.0            # erlaubt |logit| ≤ 5  →  p ∈ (0.007, 0.993)
@@ -224,7 +224,7 @@ def simulate_response(rng: np.random.Generator, X_beta: np.ndarray) -> np.ndarra
     return y.astype(int)
 
 
-# In[6]:
+# In[ ]:
 
 
 # Initialize result matrices
@@ -404,6 +404,12 @@ for p in p_values:
                     f,
                 )
             print(f"  saved {out_path}")
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

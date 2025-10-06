@@ -1,0 +1,9 @@
+method,a,b,all
+stepwise_plain,0,0,0
+L0opt_CD,35,36,71
+L0opt_CDPSI,62,61,123
+GSDAR,0,0,0
+lassonet,12,9,21
+lassonet_plus,47,37,84
+deep2stage,0,0,0
+deep2stage_plus,15,17,32

@@ -1,0 +1,6 @@
+k;stepwise_plain;stepwise_reduced;stepwise_ff;L0opt_CD;L0opt_CDPSI;lassonet;lassonet_plus;deep2stage;deep2stage_plus
+0;0;0;6;0;0;0;0;30;0
+5;0;260;62;12;10;275;8;625;10
+10;0;829;147;36;26;700;37;859;30
+20;0;1430;306;131;103;1280;120;1321;102
+40;0;1500;439;489;371;1496;693;1497;436

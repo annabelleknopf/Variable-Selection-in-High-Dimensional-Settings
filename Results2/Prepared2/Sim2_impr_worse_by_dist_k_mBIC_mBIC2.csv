@@ -1,0 +1,18 @@
+Criterion,,Better criterion,Better criterion,Better criterion,Better criterion,Worse criterion,Worse criterion,Worse criterion,Worse criterion
+Distribution,,Gamma,Gamma,Normal,Normal,Gamma,Gamma,Normal,Normal
+Model size,,10,20,10,20,10,20,10,20
+Metric,method,,,,,,,,
+mBIC,L0opt_CD,1,10,4,7,18,58,19,41
+mBIC,L0opt_CDPSI,1,10,4,7,19,54,19,39
+mBIC,GSDAR,1,3,1,4,121,159,97,153
+mBIC,lassonet,1,8,4,4,399,392,396,396
+mBIC,lassonet_plus,1,9,4,7,399,391,396,393
+mBIC,deep2stage,0,0,0,0,400,400,400,400
+mBIC,deep2stage_plus,0,2,2,3,400,398,398,397
+mBIC2,L0opt_CD,9,13,3,9,35,60,26,49
+mBIC2,L0opt_CDPSI,9,15,3,10,34,54,25,45
+mBIC2,GSDAR,2,1,0,2,193,265,166,254
+mBIC2,lassonet,5,4,0,6,395,396,400,394
+mBIC2,lassonet_plus,5,11,0,5,395,389,400,395
+mBIC2,deep2stage,0,0,0,0,400,400,400,400
+mBIC2,deep2stage_plus,2,2,0,3,398,398,400,397

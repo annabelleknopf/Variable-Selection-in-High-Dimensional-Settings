@@ -84,7 +84,7 @@ from model_selection import (
 # -----------------------------------------------------------------------------
 #  Global switches
 # -----------------------------------------------------------------------------
-CheckCode = False  # switch to False for the full run
+CheckCode = True  # switch to False for the full run
 
 if CheckCode:
     sim_nr = 1  
@@ -277,7 +277,7 @@ mBIC2_TP = np.zeros(shape)
 runtime = np.zeros(shape)
 
 
-# In[9]:
+# In[ ]:
 
 
 # -----------------------------------------------------------------------------

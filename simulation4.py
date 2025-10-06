@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 ###########################################################
@@ -41,7 +41,7 @@
 #
 
 
-# In[2]:
+# In[ ]:
 
 
 import os
@@ -77,10 +77,10 @@ from model_selection import (
 )
 
 
-# In[3]:
+# In[ ]:
 
 
-CheckCode = False  # switch to False for the full run
+CheckCode = True  # switch to False for the full run
 
 if CheckCode:
     sim_nr = 2
@@ -113,7 +113,7 @@ def make_call_seed(scenario: int, sim: int, method_idx: int, base: int = 1909130
     return int(val & 0x7FFF_FFFF)
 
 
-# In[4]:
+# In[ ]:
 
 
 # Load SNP data
@@ -145,7 +145,7 @@ Singletons = np.concatenate([cl for cl in Cluster_list_py if len(cl) == 1]).asty
 LargerClusters = [cl.astype(int) for cl in Cluster_list_py if len(cl) >= 5]
 
 
-# In[5]:
+# In[ ]:
 
 
 # Helper: unified call that adds the correct signature per method
@@ -172,7 +172,7 @@ def run_method(method, method_name: str, y, X):
     return method(y, X)
 
 
-# In[6]:
+# In[ ]:
 
 
 MAX_ETA = 5.0        # erlaubt |logit| ≤ 5  →  p ∈ (0.007, 0.993)
@@ -199,7 +199,7 @@ def simulate_response(rng: Generator, X_beta: np.ndarray) -> np.ndarray:
     return y.astype(int)
 
 
-# In[7]:
+# In[ ]:
 
 
 # Helper: pick causal SNP indices ----------------------------------------
@@ -217,7 +217,7 @@ def pick_causal_snps(scenario: int, rng: Generator) -> np.ndarray:
     return np.asarray(causal, dtype=int)
 
 
-# In[8]:
+# In[ ]:
 
 
 methods = [stepwise_plain, Select_GSDAR, L0opt_CD, L0opt_CDPSI, lassonet, lassonet_plus, deep2stage, deep2stage_plus]
@@ -235,7 +235,7 @@ TORCH_METHODS = {"lassonet", "lassonet_plus", "deep2stage", "deep2stage_plus"}
 nr_procedures = len(methods)
 
 
-# In[9]:
+# In[ ]:
 
 
 # Results matrices
@@ -250,14 +250,14 @@ mBIC2_TP = np.zeros(shape)
 runtime = np.zeros(shape)
 
 
-# In[10]:
+# In[ ]:
 
 
 # Main simulation loop 
 
 rng = default_rng(RNG_SEED)
 
-for scenario in (4,):  #(1, ) (1, 2, 3, 4)
+for scenario in (1, 2, 3, 4):  
     scen_label = f"Scen{scenario}"
     print(f"\nScenario {scenario}: {sim_nr} simulation(s)…")
 

@@ -1,6 +1,0 @@
-/usr/local/lib/python3.12/dist-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=0.819 (selected automatically) might be too large.
-Features start to disappear at current_lambda=1.300.
-  warnings.warn(
-/usr/local/lib/python3.12/dist-packages/lassonet/interfaces.py:486: UserWarning: lambda_start=0.819 (selected automatically) might be too large.
-Features start to disappear at current_lambda=1.300.
-  warnings.warn(

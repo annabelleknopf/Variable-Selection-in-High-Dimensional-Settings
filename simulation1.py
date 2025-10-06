@@ -65,8 +65,8 @@ from model_selection import (
 
 
 # Konfiguration
-CheckCode = False
-sim_nr = 5 if CheckCode else 500 
+CheckCode = True
+sim_nr = 2 if CheckCode else 500 
 
 # Ergebnisordner abhängig von CheckCode
 results_folder = "CheckResults1" if CheckCode else "Results1"
@@ -101,8 +101,8 @@ n = 500
 p = 1000
 p_vec = np.arange(p)
 
-k_vec = [40] #[5] [0, 5, 10, 20, 40]
-rho_vec = [0.0]    #[0, 0.5, 0.8]
+k_vec = [0, 5, 10, 20, 40] 
+rho_vec = [0, 0.5, 0.8]   
 
 # Methodenliste
 methods = [
@@ -136,7 +136,7 @@ scaler_y = StandardScaler()
 rng = default_rng()
 
 
-# In[ ]:
+# In[5]:
 
 
 # Simulation

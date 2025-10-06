@@ -127,9 +127,8 @@ def make_call_seed(p: int, k: int, scenario: str, sim: int, method_idx: int) -> 
 #  Basic dimensions
 # -----------------------------------------------------------------------------
 
-
 n = 1_000
-p_values = [1000]  #[1_000, 2_000, 5_000, 10_000, 50_000]
+p_values = [1_000, 2_000, 5_000, 10_000] 
 k_values = [10, 20]
 
 # -----------------------------------------------------------------------------
@@ -256,10 +255,10 @@ method_names = [
     "lassonet",
     "lassonet_plus",
     "deep2stage",
-    "deep2stge_plus"
+    "deep2stage_plus"
 ]
 
-TORCH_METHODS = {"lassonet", "lassonet_plus", "deep2stage", "deep2stge_plus"}
+TORCH_METHODS = {"lassonet", "lassonet_plus", "deep2stage", "deep2stage_plus"}
 nr_procedures = len(methods)
 scaler = StandardScaler(with_mean=True, with_std=True)
 
